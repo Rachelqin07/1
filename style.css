@@ -1,0 +1,84 @@
+body{
+  background-color: #dddddd;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #4c2f53;
+}
+
+.content {
+  background-color: #25aa9f;
+  padding: auto;
+  height: auto;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #9991a7;
+  text-align: center;
+  padding:10px 14px;
+  text-decoration: none;
+}
+
+h6{
+  color:rgb(210, 226, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  font-size:12px;
+}
+
+h2{
+  color:rgb(26, 28, 31);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+h5{
+  color:rgb(210, 226, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  font-size:14px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #915fb3;
+  color: rgb(50, 41, 58);
+  height:10px;
+}
+
+
+/* Style the content */
+.content1 {
+  background-color: #d7bde9;
+  padding: auto;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+.content2 {
+  background-color: #e1e1e1;
+  padding: auto;
+  height: auto; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #4c2f53;
+  padding: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
