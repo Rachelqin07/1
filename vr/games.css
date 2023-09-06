@@ -1,0 +1,122 @@
+body{
+    background-color: #ffffff;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #3A2B3E;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h5{
+    color: #F9FFEA;
+    font-family: "Calibri", sans-serif; ;
+    font-size:14px;
+    font-weight:normal;
+  }
+
+  #google_translate_element{
+    height: 50px;
+  }  
+
+  .content {
+    background-color: #ffffff;
+    padding: auto;
+    height: auto;
+  }
+  
+ 
+  .topnav a {
+    float: left;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    padding:10px 15px;
+    text-decoration: none;
+  }
+  
+  
+  .content2{
+    background-image:url(images/bg.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    color:rgb(0, 0, 0);
+    font-family: 'Arial', 'Arial Regular';
+    height: 128px;
+    font-size: auto;
+    display: flex;
+    align-items: center; 
+  }
+
+  .content2 h2{
+    margin-left: 25px;
+    font-family:'Dancing script', cursive;
+    font-weight: bold;
+  }
+
+
+  .topnav a:hover {
+    background-color: #3A2B3E;
+    color: rgb(53, 43, 62);
+    height:10px;
+    padding-bottom: 5px ;
+  }
+  
+
+  .content1 {
+    font-size: 18px;
+    background-color: #ffffff;
+    padding: auto;
+    height: auto; 
+    display:grid;
+    grid-column:1;
+  }
+  
+  .container{
+    max-width: 600px;
+    min-width: 700px;
+    font-family: sans-serif;
+    display:grid;
+    grid-template-columns: 600px auto;
+    grid-template-rows: auto auto auto;
+    width: auto;
+    height: auto;
+    gap: 10px;
+    box-sizing:border-box;
+    margin:auto;
+  }
+
+
+.img1{
+  grid-column:2;
+  grid-row:1;
+}
+
+  .footer {
+    background-color:  #3A2B3E;
+    padding: 15px;
+    clear: right;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+ 

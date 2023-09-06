@@ -1,0 +1,137 @@
+body{
+  background-color: #ffffff;
+}
+
+img {
+        width: 300px;
+        border: 1px solid black;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #3A2B3E;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  min-width: fit-content;
+}
+
+
+h5{
+  color: #F9FFEA;
+  font-family: "Calibri", sans-serif; ;
+  font-size:14px;
+  font-weight:normal;
+}
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  font-size:12px;
+}
+.content {
+  background-color: #ffffff;
+  padding: auto;
+  height: auto;
+}
+
+
+.topnav a {
+  float: left;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  padding:10px 15px;
+  text-decoration: none;
+}
+
+.content2{
+  background-image:url(images/bg.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  color:rgb(0, 0, 0);
+  font-family: 'Arial', 'Arial Regular';
+  height: 128px;
+  width:auto;
+  font-size: auto;
+  display: flex;
+  align-items: center; 
+
+}
+
+.content2 h2{
+  margin-left: 30px;
+  font-family:'Dancing script', cursive;
+  font-weight: bold;
+}
+
+
+#google_translate_element{
+  height: 50px;
+}
+
+.topnav a:hover {
+  background-color: #3A2B3E;
+  color: rgb(53, 43, 62);
+  height:10px;
+  padding-bottom: 5px ;
+}
+
+.content1 {
+  font-size: 18px;
+  background-color: #ffffff;
+  padding: auto;
+  height: auto; 
+  margin:auto;
+  font-family: "Open Sans",sans-serif;
+  grid-column:2;
+  grid-row:2;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.container {
+  max-width: 600px;
+  min-width: 200px;
+  margin-left:18%;
+  padding-left: auto;
+  font-family: Arial, sans-serif;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr;
+  width: auto;
+  height: auto;
+  gap: 20px;
+  box-sizing:border-box;
+  float:center;
+}
+
+.footer {
+  background-color:  #3A2B3E;
+  padding: 15px;
+  clear:both;
+  grid: auto;
+}
+.img1{
+  grid-column:2;
+  grid-row:1;
+}
+.img2{
+  grid-column:3;
+  grid-row:2;
+}
