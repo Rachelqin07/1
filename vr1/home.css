@@ -1,0 +1,48 @@
+body {
+    background-color: #ffffff;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #3A2B3E;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-width: fit-content;
+}
+
+.topnav a {
+    float: left;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #3A2B3E;
+    color: rgb(53, 43, 62);
+    height: 10px;
+    padding-bottom: 5px;
+}
+
+.background{
+    background-image:url(images/vrback.png);
+    background-size:100% auto;
+    background-repeat:no-repeat;
+}
+
+h2{
+    font-family:"Comic Sans MS", cursive;
+    text-align:center;
+    font-size:50px;
+}
+
+.content1 h3{
+    font-family:"Comic Sans MS", cursive;
+}
+

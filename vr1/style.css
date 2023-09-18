@@ -1,0 +1,126 @@
+body {
+  background-color: #ffffff;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #3A2B3E;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  min-width: max-content;
+  text-decoration: none;
+}
+
+
+h2 {
+  padding: 40px;
+  font-family: "Comic Sans MS", cursive;
+  font-size: 60px;
+  text-align: center;
+  color:#dddddd;
+}
+
+h5 {
+  color: #F9FFEA;
+  font-family: "Calibri", sans-serif;
+  ;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  font-size: 12px;
+}
+
+
+.content {
+  background-color: #ffffff;
+  padding: auto;
+  height: auto;
+}
+
+.content1 h3{
+padding:0;
+margin:0;
+}
+
+.content3 h4 {
+  padding: 0px;
+  margin: 0;
+}
+
+
+.topnav a {
+  float: left;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+
+
+#google_translate_element {
+  height: 50px;
+}
+
+.topnav a:hover {
+  background-color: #3A2B3E;
+  color: #F9FFEA;
+  height: 10px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.content1 p {
+  color: #000000;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+
+
+
+.background {
+  background-image: url(images/vrback.png);
+  background-size: 100% auto;
+  min-width: 200px;
+  background-repeat: no-repeat;
+}
+
+
+.footer {
+  background-color: #3A2B3E;
+  padding: 15px;
+  font-family: inherit;
+}
+
+
+.row {
+  color: #000000;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+
+.img3 {
+  position: relative;
+  padding-bottom: 56.25%; 
+  padding-top: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.img3 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
